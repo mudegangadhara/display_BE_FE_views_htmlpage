@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>display the insert the data in Accessmode</h1>
+        <table border="3px">
+            <tr>
+                <td><h4>name</h4></td>
+                <td><h4>author</h4></td>
+                <td><h4>date</h4></td>
+            </tr>
+        {% for i in accessmode %}
+            <tr>
+                <td>{{i.name}}</td>
+                <td>{{i.author}}</td>
+                <td>{{i.date}}</td>
+            </tr>
+        {% endfor %}
+
+
+
+
+        </table>
+
+
+
+
+
+
+
+
+
+
+    </center>
+</body>
+</html>
